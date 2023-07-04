@@ -1,0 +1,44 @@
+<div class="container ">
+    <div class="card">
+        <div class="card-header">
+            <h3 style="text-align: center; position: -ms-page; color: black;">EDITAR DE CELULAR</h3>
+        </div>
+        <div clss="card-body">
+            <form >
+                <div class="form-group ">
+                    <label form="idCelular">Codigo Celulares:</label>
+                    <input type="number" disabled="disabled" class="form-control" name="idCelular" [(ngModel)]="cel.idCelular">
+                </div>
+                <div class="form-group">
+                    <label form="marca">Marca:</label>
+                    <input type="text" class="form-control" name="marca" [(ngModel)]="cel.marca">
+                </div>
+                <div class="form-group">
+                    <label form="modelo">Modelo:</label>
+                    <input type="text" class="form-control" name="modelo" [(ngModel)]="cel.modelo">
+                </div>
+                <div class="form-group">
+                    <label form="color">Color:</label>
+                    <input type="text" class="form-control" name="color" [(ngModel)]="cel.color">
+                </div>
+                <div class="form-group">
+                    <label form="precio">Precio:</label>
+                    <input type="number" class="form-control" name="precio" [(ngModel)]="cel.precio">
+                </div>
+                <div class="form-group">
+                    <label form="capacidad">Almacenamiento::</label>
+                    <input type="number" class="form-control" name="capacidad" [(ngModel)]="cel.capacidad" >
+                </div>
+                <br>
+                <br>
+                <button type="submit" class="btn btn-success"(click)="EditarCelukar()">Editar Datos</button>
+                <br>
+                <br>
+            </form>
+            <br>
+
+        </div>
+
+    </div>
+
+</div>

@@ -1,0 +1,45 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-10 ">
+    <div class="card">
+        <div class="card-header">
+            <h3 style="text-align: center; position: -ms-page; color: black;">ALTA CELULAR</h3>
+        </div>
+        <div class="col-md-8 ">
+        <div clss="card-body">
+            <form>
+                <div class="form-group col-md-8" >
+                    <label form="idCelular" >Codigo Celulares:</label>
+                    <input type="number" class="form-control" name="idCelular" [(ngModel)]="cel.idCelular">
+                </div>
+                <div class="form-group col-md-8">
+                    <label form="marca">Marca:</label>
+                    <input type="text" class="form-control" name="marca" [(ngModel)]="cel.marca">
+                </div>
+                <div class="form-group col-md-8">
+                    <label form="modelo">Modelo:</label>
+                    <input type="text" class="form-control" name="modelo" [(ngModel)]="cel.modelo">
+                </div>
+                <div class="form-group col-md-8">
+                    <label form="color">Color:</label>
+                    <input type="text" class="form-control" name="color" [(ngModel)]="cel.color">
+                </div>
+                <div class="form-group col-md-8">
+                    <label form="precio">Precio:</label>
+                    <input type="number" class="form-control" name="precio" [(ngModel)]="cel.precio">
+                </div>
+                <div class="form-group col-md-8">
+                    <label form="capacidad">Almacenamiento::</label>
+                    <input type="number" class="form-control" name="capacidad" [(ngModel)]="cel.capacidad">
+                </div>
+                <br>
+                <button type="submit" class="btn btn-success"(click)="GuardarCelukar()">Guardar Datos</button>
+                <br>
+            </form>
+        </div>
+        </div>
+
+    </div>
+</div>
+</div>
+</div>
